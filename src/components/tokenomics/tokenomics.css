@@ -1,0 +1,130 @@
+.Tokenomics {
+  display: flex;
+  height: 100svh;
+  justify-content: center;
+  align-items: center;
+}
+
+  .token__container {
+    color: #FFFFFF;
+    width: 96%;
+    text-align: center;
+    justify-content: center;
+}
+  .token__header h1 {
+    font-size: 2.8vh;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+
+  #token_header {
+    padding: 1% 2%;
+    border: 1px solid #FF008A; 
+    border-radius: 25px;
+    background-color: #282828;
+    box-shadow: 0px 4px 4px 0px #FF5D18;
+
+  }
+  
+  .token__table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    
+  }
+  
+  .token__table-text {
+    flex: 1; /* Равномерное распределение пространства между элементами */
+    margin: 2%; /* Пространство между элементами */
+    font-size: 2.5vh;
+    line-height: 1.5;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 25px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #FF5D18;
+    
+
+  }
+
+  #p1 {
+    margin-bottom: 1%;
+  }
+  
+  .token__table-subtitle {
+    font-size: 2.5vh;
+    width: 100%; /* Занимает всю ширину контейнера */
+    margin: 2% auto; /* Пространство между token__table и token__table-subtitle */
+    border-radius: 25px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #FF5D18;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 96%;
+    justify-content: center;
+    word-wrap: break-word;   
+
+  }
+
+  #tadress {
+    color: #fab090;
+  }
+  
+  .token__btn {
+    margin-top: 1%; /* Пространство между token__table-subtitle и token__btn */
+  }
+  
+
+.token__btn button {
+    font-size: 2vh;
+    line-height: 1.5;
+    padding: 2% 3%;
+    background-color: #FF4D00;
+    color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0px 4px 24px 0px #000000;
+    cursor: pointer;
+
+  }
+
+
+  @media screen and (max-width: 767px) {
+
+    .token__header h1 {
+      font-size: 2.8vh;
+
+      margin-bottom: 2%;
+    }
+
+    .token__table-text {
+
+      margin: 3%; /* Пространство между элементами */
+      font-size: 2vh;
+      line-height: 1.5;
+      padding-top: 4%;
+      padding-bottom: 4%;
+
+    }
+  
+    #p1 {
+      margin-bottom: 2%;
+    }
+    
+    .token__table-subtitle {
+      font-size: 2vh;
+      margin: 3% auto; /* Пространство между token__table и token__table-subtitle */
+      padding-top: 3%;
+      padding-bottom: 3%;
+     
+  
+    }
+    .token__btn {
+      margin-top: 3%; /* Пространство между token__table-subtitle и token__btn */
+    }
+  }
+
+

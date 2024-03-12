@@ -1,0 +1,97 @@
+.Footer {
+    background: url("./../../img/footer.webp") center top no-repeat;
+    background-size: cover;
+    min-height: 92svh;
+    display: flex;
+    flex-direction: column; /* Изменено на flex-direction */
+}
+
+
+.footer__container {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: auto; /* Новое свойство для размещения внизу */
+}
+
+
+
+.footer__block {
+    color: #ffff;
+    background:rgba(22, 22, 22, 0.8);
+    width: 100%; /* Добавлено для занимания всей ширины контейнера */
+    backdrop-filter: blur(10px);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+    
+    .footer__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 5% 0 5%;
+    }
+
+
+    
+    .footer__nav ul {
+        display: flex;
+        column-gap: 15%;
+        align-items: center;
+    }
+    
+    .footer__nav a {
+        color: #ffff;
+    }
+        
+    .footer__links ul {
+        display: flex;
+        column-gap: 15%;
+        align-items: center;
+    }
+    
+
+    .footer__header {
+        
+        font-size: 4vh;
+        padding: 30px 40px;
+        border: 1px solid #FF008A; 
+        border-radius: 25px;
+        background-color: #282828;
+        box-shadow: 0px 4px 4px 0px #FF5D18;
+    }
+
+
+    .footer__subtitle {
+        font-size: 3vh;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+
+    @media screen and (max-width: 767px) {
+
+        .Footer {
+
+            min-height: 32svh;
+
+
+        }
+        .footer__nav {
+            display: none;
+        }
+        .footer__row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 5% 0 5%;
+        }
+
+
+
+      
+      }
+    
+
+
+    
